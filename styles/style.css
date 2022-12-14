@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    line-height: 20px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.filterHero {
+    opacity: 0.9;
+    width: 30vh;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: lightslategray;
+    font-weight: normal;
+}
+
+.filterHero h2 {
+    padding-left: 20px;
+}
+
+.checkbox {
+    width: 3vh;
+}
+
+button {
+    font-weight: 900;
+}
+
+.slider {
+    background-color: wheat;
+    width: 50vh;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.slider-text {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-text p {
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.imgHero {
+    width: 50vh;
+    height: 70vh;
+    position: relative;
+}
+
+.arrows {
+    position: relative;
+}
+
+.arrowprev {
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    left: 10px;
+    transform: scale(-1, 1);
+}
+
+.arrownext {
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    right: 10px;
+}
+
+.heroes {
+    background: url(../images/1624112912_40-phonoteka_org-p-nyu-york-oboi-krasivo-46.jpg) no-repeat fixed;
+    background-size: 160vh;
+    position: relative;
+    padding-top: 2vh;
+    padding-left: 35vh;
+    padding-right: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero p {
+    color: white;
+    padding-bottom: 0;
+    z-index: 3;
+    font-weight: 900;
+}
+
+
+.heroes img {
+    background-color: black;
+    margin: 2vh;
+    width: 18vh;
+    height: 18vh;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.activeClick {
+    background-color: indigo;
+    opacity: 1;
+}
+
+.shadow {
+    opacity: 0.2;
+}
+
+.mouseEnter {
+    opacity: 1;
+    transform:
+        scale(1.1, 1.1);
+}
+
+.hero p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+}
